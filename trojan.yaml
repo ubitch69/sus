@@ -1,0 +1,84 @@
+proxies:
+  - name: SG Digital Ocean
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: c833e3c5-e6b3-46a6-9618-1c0f6730d3e3
+    network: ws
+    sni: sgdo.sysctrl.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sgdo.sysctrl.my.id
+
+  - name: SG Linode 1
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: b327528b-3c1c-4b65-9aa0-d3d9691a3b1f
+    network: ws
+    sni: sgl-1.sysctrl.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sgl-1.sysctrl.my.id
+
+  - name: SG Linode 2
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: 073b89cb-56d0-40b8-87a9-698aecfb86cc
+    network: ws
+    sni: sgl-2.sysctrl.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sgl-2.sysctrl.my.id
+
+  - name: SG Azure
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: eaf24b00-77ad-4e9f-94fe-620ccf466ac6
+    network: ws
+    sni: sga.sysctrl.my.id
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sga.sysctrl.my.id
+
+  - name: SG GS
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: d0754f21-66ef-4c5f-87d5-e259b6d1151d
+    network: ws
+    sni: sggs.vpn-ws.com
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sggs.vpn-ws.com
+
+  - name: SG Melbicom UAB
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: f4df90b7-2432-4222-82c1-38c19e4dab9e
+    network: ws
+    sni: sg-melbi.vpn-ws.com
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: sg-melbi.vpn-ws.com
