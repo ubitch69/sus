@@ -17,7 +17,7 @@ proxies:
     server: online.uc.edu
     port: 443
     type: trojan
-    password: b327528b-3c1c-4b65-9aa0-d3d9691a3b1f
+    password: dd94af65-3c3d-432a-89f1-a923f0f90a04
     network: ws
     sni: sgl-1.sysctrl.my.id
     skip-cert-verify: true
@@ -31,7 +31,7 @@ proxies:
     server: online.uc.edu
     port: 443
     type: trojan
-    password: 073b89cb-56d0-40b8-87a9-698aecfb86cc
+    password: ed253334-5375-4c2e-9400-15219af820b5
     network: ws
     sni: sgl-2.sysctrl.my.id
     skip-cert-verify: true
