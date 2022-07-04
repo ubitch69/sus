@@ -94,3 +94,19 @@ proxies:
       path: /vless
       headers:
         Host: sg-melbi.vpn-ws.com
+
+  - name: ID Atha
+    type: vless
+    server: online.uc.edu
+    port: 443
+    uuid: 21f016de-14b1-4a04-8a12-45455832d83d
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: id-fast.vpn-ws.com
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id-fast.vpn-ws.com
