@@ -1,5 +1,5 @@
 proxies:
-  - name: SG Digital Ocean
+  - name: 🇸🇬 SG Digital Ocean
     type: vless
     server: online.uc.edu
     port: 443
@@ -15,7 +15,7 @@ proxies:
       headers:
         Host: sgdo.sysctrl.my.id
 
-  - name: SG Linode 1
+  - name: 🇸🇬 SG Linode 1
     type: vless
     server: online.uc.edu
     port: 443
@@ -31,7 +31,7 @@ proxies:
       headers:
         Host: sgl-1.sysctrl.my.id
 
-  - name: SG Linode 2
+  - name: 🇸🇬 SG Linode 2
     type: vless
     server: online.uc.edu
     port: 443
@@ -47,7 +47,7 @@ proxies:
       headers:
         Host: sgl-2.sysctrl.my.id
 
-  - name: SG Azure
+  - name: 🇸🇬 SG Azure
     type: vless
     server: online.uc.edu
     port: 443
@@ -63,7 +63,7 @@ proxies:
       headers:
         Host: sga-2.sysctrl.my.id
 
-  - name: SG GS
+  - name: 🇸🇬 SG GS
     type: vless
     server: online.uc.edu
     port: 443
@@ -79,7 +79,7 @@ proxies:
       headers:
         Host: sggs.vpn-ws.com
 
-  - name: SG Melbicom UAB
+  - name: 🇸🇬 SG Melbicom UAB
     type: vless
     server: online.uc.edu
     port: 443
@@ -95,7 +95,7 @@ proxies:
       headers:
         Host: sg-melbi.vpn-ws.com
 
-  - name: ID Atha
+  - name: 🇮🇩 ID Atha
     type: vless
     server: online.uc.edu
     port: 443
