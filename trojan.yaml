@@ -1,5 +1,5 @@
 proxies:
-  - name: SG Digital Ocean
+  - name: 🇸🇬 SG Digital Ocean
     server: online.uc.edu
     port: 443
     type: trojan
@@ -13,7 +13,7 @@ proxies:
       headers:
         Host: sgdo.sysctrl.my.id
 
-  - name: SG Linode 1
+  - name: 🇸🇬 SG Linode 1
     server: online.uc.edu
     port: 443
     type: trojan
@@ -27,7 +27,7 @@ proxies:
       headers:
         Host: sgl-1.sysctrl.my.id
 
-  - name: SG Linode 2
+  - name: 🇸🇬 SG Linode 2
     server: online.uc.edu
     port: 443
     type: trojan
@@ -41,7 +41,7 @@ proxies:
       headers:
         Host: sgl-2.sysctrl.my.id
 
-  - name: SG Azure
+  - name: 🇸🇬 SG Azure
     server: online.uc.edu
     port: 443
     type: trojan
@@ -55,7 +55,7 @@ proxies:
       headers:
         Host: sga.sysctrl.my.id
 
-  - name: SG GS
+  - name: 🇸🇬 SG GS
     server: online.uc.edu
     port: 443
     type: trojan
@@ -69,7 +69,7 @@ proxies:
       headers:
         Host: sggs.vpn-ws.com
 
-  - name: SG Melbicom UAB
+  - name: 🇸🇬 SG Melbicom UAB
     server: online.uc.edu
     port: 443
     type: trojan
@@ -82,3 +82,17 @@ proxies:
       path: /trojan-ws
       headers:
         Host: sg-melbi.vpn-ws.com
+
+  - name: 🇮🇩 ID Atha
+    server: online.uc.edu
+    port: 443
+    type: trojan
+    password: c94789ad-154e-4a74-b567-314079c33d46
+    network: ws
+    sni: id-fast.vpn-ws.com
+    skip-cert-verify: true
+    udp: true
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id-fast.vpn-ws.com
