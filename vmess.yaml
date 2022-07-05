@@ -100,3 +100,20 @@ proxies:
       path: /vmess
       headers:
         Host: sg-melbi.vpn-ws.com
+
+  - name: ID Atha
+    type: vmess
+    server: online.uc.edu
+    port: 443
+    uuid: ca76a971-a6eb-461f-acc9-4308cd70eaa3
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: id-fast.vpn-ws.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id-fast.vpn-ws.com
